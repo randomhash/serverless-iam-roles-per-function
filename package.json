@@ -1,11 +1,11 @@
 {
-  "name": "serverless-iam-roles-per-function",
+  "name": "randomhash-serverless-iam-roles-per-function",
   "private": false,
   "version": "2.0.2",
   "engines": {
     "node": ">=6.10.0"
   },
-  "description": "A Serverless plugin to define IAM Role statements as part of the function definition block",
+  "description": "Forked Serverless plugin to define IAM Role statements as part of the function definition block. Base: https://github.com/functionalone/serverless-iam-roles-per-function",
   "main": "dist/lib/index.js",
   "scripts": {
     "clean": "rimraf dist",
@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/functionalone/serverless-iam-roles-per-function"
+    "url": "https://github.com/randomhash/serverless-iam-roles-per-function"
   },
   "keywords": [
     "aws",
