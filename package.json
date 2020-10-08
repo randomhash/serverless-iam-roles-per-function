@@ -1,7 +1,7 @@
 {
-  "name": "randomhash-serverless-iam-roles-per-function",
+  "name": "@maaraanas/randomhash-serverless-iam-roles-per-function",
   "private": false,
-  "version": "2.0.2",
+  "version": "3.0.0",
   "engines": {
     "node": ">=6.10.0"
   },
@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/randomhash/serverless-iam-roles-per-function"
+    "url": "git+https://github.com/randomhash/serverless-iam-roles-per-function.git"
   },
   "keywords": [
     "aws",
@@ -50,7 +50,7 @@
     "npm-get-version": "^1.0.2",
     "nyc": "^14.1.1",
     "rimraf": "^3.0.0",
-    "serverless": "^1.51.0",
+    "serverless": "^2.5.0",
     "source-map-support": "^0.5.13",
     "standard-version": "^7.0.0",
     "ts-node": "^8.3.0",
@@ -79,5 +79,9 @@
       "text"
     ],
     "all": true
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/randomhash/serverless-iam-roles-per-function/issues"
+  },
+  "homepage": "https://github.com/randomhash/serverless-iam-roles-per-function#readme"
 }
