@@ -89,18 +89,6 @@ class ServerlessIamPerFunctionPlugin {
     if (_.isEmpty(statements)) {
       return;
     }
-    const awsPackagePluginName = 'AwsPackage';
-    if (!this.awsPackagePlugin) {
-      for (const plugin of this.serverless.pluginManager.plugins) {
-        if (
-          plugin.constructor &&
-          plugin.constructor.name === awsPackagePluginName
-        ) {
-          this.awsPackagePlugin = plugin;
-          break;
-        }
-      }
-    }
 
     this.legacyValidateStatements(statements);
   }
