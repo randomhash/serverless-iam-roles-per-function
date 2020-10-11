@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import util from 'util';
 
-const PLUGIN_NAME = 'serverless-iam-roles-per-function';
+const PLUGIN_NAME = '@maaraanas/randomhash-serverless-iam-roles-per-function';
 
 interface Statement {
   Effect: 'Allow' | 'Deny';
