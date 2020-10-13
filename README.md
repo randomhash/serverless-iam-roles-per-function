@@ -18,10 +18,10 @@ Add the plugin to serverless.yml:
 
 ```yaml
 plugins:
-  - serverless-iam-roles-per-function
+  - serverless-iamroles
 ```
 
-**Note**: Node 6.10 or higher runtime required.
+**Note**: Node 10 or higher runtime required.
 
 ## Usage
 
